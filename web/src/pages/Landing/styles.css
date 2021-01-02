@@ -10,9 +10,6 @@
   background: var(--color-primary);
 }
 
-.logo-container img{
-  height: 10rem;
-}
 
 .hero-image{
   width: 100%;
@@ -25,9 +22,10 @@
 
 .logo-container h2{
   font-weight: 500;
-  font-size: 2.4rem;
+  font-size: 40px;
   line-height: 4.6rem;
   margin-top: 0.8rem;
+  color: #fff;
 }
 
 .buttons-container{
@@ -52,7 +50,7 @@
   transition: background-color 0.2s;
 }
 
-.buttons-container a:first-child{
+.buttons-container a{
   margin-right: 1.6rem;
 }
 
@@ -60,37 +58,34 @@
   width: 4rem;
 }
 
-.buttons-container a.study{
-  background: var(--color-primary-lighter);
-}
-
-.buttons-container a.give-classes{
+.buttons-container a.listar{
   background: var(--color-secundary);
 }
 
-.buttons-container a.study:hover{
-  background: var(--color-primary-light);
+.buttons-container a.cadastrar{
+  background: var(--color-secundary);
 }
 
-.buttons-container a.give-classes:hover{
+.buttons-container a.deletar{
+  background: #ff0000;
+}
+
+.buttons-container a.listar:hover{
   background: var(--color-secundary-dark);
+}
+
+.buttons-container a.cadastrar:hover{
+  background: var(--color-secundary-dark);
+}
+
+.buttons-container a.deletar:hover{
+  background: #f50000;
 }
 
 .buttons-container a img{
   margin-right: 2.4rem;
 }
 
-.total-connections{
-  font-size: 1.4rem;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.total-connections img{
-  margin-left: 0.8rem;
-}
 
 @media(min-width: 1100px){
   #page-landing-content{
@@ -114,7 +109,7 @@
 
   .logo-container h2{
     text-align: initial;
-    font-size: 3.6rem;
+    font-size: 6.6rem;
   }
 
   .logo-container img{

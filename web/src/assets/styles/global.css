@@ -1,10 +1,10 @@
 :root {
   --color-background: #F0F0F7;
-  --color-primary-lighter: #9871F5;
-  --color-primary-light: #916BEA;
-  --color-primary: #8257E5;
-  --color-primary-dark: #774DD6;
-  --color-primary-darker: #6842C2;
+  --color-primary-lighter: #80D3FF;
+  --color-primary-light: #80D3FF;
+  --color-primary: #80D3FF;
+  --color-primary-dark: #5CC7FD;
+  --color-primary-darker: #5CC7FD;
   --color-secundary: #04D361;
   --color-secundary-dark: #04BF58;
   --color-title-in-primary: #FFFFFF;
